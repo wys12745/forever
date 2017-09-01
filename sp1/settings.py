@@ -14,12 +14,13 @@ BOT_NAME = 'sp1'
 SPIDER_MODULES = ['sp1.spiders']
 NEWSPIDER_MODULE = 'sp1.spiders'
 
+DEPTH_LIMIT = 1      # 这个是递归深度
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'sp1 (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = True   # 这个是爬虫协议
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
